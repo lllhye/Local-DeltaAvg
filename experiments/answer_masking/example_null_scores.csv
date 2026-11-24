@@ -1,0 +1,4 @@
+id,token_count,answer_first_raw_score,answer_first_raw_n_windows,answer_loss_masked_score,answer_loss_masked_n_windows,answer_context_masked_score,answer_context_masked_n_windows
+null-a,20,0.20,3,0.18,3,0.15,3
+null-b,24,0.22,3,0.19,3,0.16,3
+null-c,18,0.19,2,0.17,2,0.14,2

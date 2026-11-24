@@ -1,0 +1,44 @@
+{
+  "_source": "Local-DeltaAvg manuscript, family_aware_results.tex and answer_masking_results.tex",
+  "scalar_average": 50.4,
+  "tasks": {
+    "GSM8K": 73.4,
+    "MATH500": 60.5,
+    "AIME24": 17.8,
+    "GPQA-D": 48.5,
+    "LCB": 55.1,
+    "average": 51.1
+  },
+  "assignment": {
+    "audit_n": 600,
+    "high_confidence_percent": 91.6,
+    "top1_accuracy_percent": 78.2,
+    "macro_f1": 0.76,
+    "kappa": 0.81,
+    "cross_probe_agreement_percent": 76.8,
+    "prompt_stability_percent": 84.3
+  },
+  "acquisition": {
+    "scalar_active_families": 17,
+    "family_active_families": 23,
+    "scalar_worst_family_accuracy": 42.9,
+    "family_worst_family_accuracy": 45.7,
+    "scalar_exposure_gini": 0.41,
+    "family_exposure_gini": 0.24
+  },
+  "natural_fit": {
+    "negative_slope_families": 20,
+    "concave_preferred_families": 18,
+    "concave_median_r2": 0.79,
+    "linear_median_r2": 0.43,
+    "partial_median_r2": 0.11,
+    "interference_p95_nll": 0.08
+  },
+  "cost": {
+    "assignment_gpu_hours": 75.0,
+    "total_gpu_hours": 875.0,
+    "wall_hours": 109.4,
+    "source_tokens_per_second_per_gpu": 6349.0,
+    "relative_to_ppl": 2.24
+  }
+}

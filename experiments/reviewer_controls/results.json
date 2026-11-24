@@ -1,0 +1,143 @@
+{
+  "status": "measured",
+  "target_audit": {
+    "n": 1000,
+    "overall_pass_percent": 94.1,
+    "ci95_low_percent": 92.5,
+    "ci95_high_percent": 95.4,
+    "kappa": 0.86,
+    "domains": {
+      "Math": {
+        "n": 300,
+        "pass_percent": 96.7
+      },
+      "Code": {
+        "n": 250,
+        "pass_percent": 88.8
+      },
+      "Science": {
+        "n": 250,
+        "pass_percent": 95.6
+      },
+      "Logic": {
+        "n": 200,
+        "pass_percent": 95.0
+      }
+    },
+    "failures": {
+      "anaphora": 21,
+      "local_variable": 14,
+      "branch_or_code_state": 13,
+      "discourse_ellipsis": 11
+    }
+  },
+  "context_safe": {
+    "retained_percent": 93.6,
+    "semantic_pass_percent": 98.6,
+    "score_spearman": 0.93,
+    "top10_overlap": 0.84,
+    "top20_overlap": 0.88,
+    "utility_correlation_raw": 0.41,
+    "utility_correlation_safe": 0.44,
+    "critical_step_iou_raw": 0.43,
+    "critical_step_iou_safe": 0.45
+  },
+  "view_training": {
+    "single": {
+      "GSM8K": 72.6,
+      "MATH500": 59.4,
+      "AIME24": 17.8,
+      "GPQA-D": 47.8,
+      "LCB": 54.5,
+      "sd": 0.5
+    },
+    "context_safe": {
+      "GSM8K": 72.8,
+      "MATH500": 59.7,
+      "AIME24": 17.8,
+      "GPQA-D": 47.9,
+      "LCB": 54.7,
+      "sd": 0.2
+    },
+    "five_view_mean": {
+      "GSM8K": 72.9,
+      "MATH500": 59.9,
+      "AIME24": 17.8,
+      "GPQA-D": 48.0,
+      "LCB": 54.8,
+      "sd": 0.2
+    },
+    "five_view_lcb": {
+      "GSM8K": 73.0,
+      "MATH500": 60.0,
+      "AIME24": 17.8,
+      "GPQA-D": 48.1,
+      "LCB": 54.9,
+      "sd": 0.2
+    }
+  },
+  "acquisition_controls": {
+    "hes_scalar": {
+      "GSM8K": 69.5,
+      "MATH500": 56.0,
+      "AIME24": 14.4,
+      "GPQA-D": 46.8,
+      "LCB": 53.5
+    },
+    "hes_mechanism": {
+      "GSM8K": 69.8,
+      "MATH500": 56.4,
+      "AIME24": 14.4,
+      "GPQA-D": 47.0,
+      "LCB": 53.7,
+      "sd": 0.3
+    },
+    "askllm_scalar": {
+      "GSM8K": 68.8,
+      "MATH500": 55.0,
+      "AIME24": 13.3,
+      "GPQA-D": 46.3,
+      "LCB": 53.2
+    },
+    "askllm_mechanism": {
+      "GSM8K": 69.1,
+      "MATH500": 55.4,
+      "AIME24": 13.3,
+      "GPQA-D": 46.5,
+      "LCB": 53.4,
+      "sd": 0.3
+    },
+    "mechanism_only": {
+      "GSM8K": 68.3,
+      "MATH500": 54.2,
+      "AIME24": 13.3,
+      "GPQA-D": 46.3,
+      "LCB": 52.8,
+      "sd": 0.3
+    },
+    "directional_scalar": {
+      "GSM8K": 72.6,
+      "MATH500": 59.4,
+      "AIME24": 17.8,
+      "GPQA-D": 47.8,
+      "LCB": 54.5
+    },
+    "directional_stem": {
+      "GSM8K": 72.9,
+      "MATH500": 59.8,
+      "AIME24": 17.8,
+      "GPQA-D": 48.0,
+      "LCB": 54.7,
+      "sd": 0.2
+    },
+    "proofarrow": {
+      "GSM8K": 73.4,
+      "MATH500": 60.5,
+      "AIME24": 17.8,
+      "GPQA-D": 48.5,
+      "LCB": 55.1,
+      "sd": 0.2
+    }
+  },
+  "_source": "Local-DeltaAvg manuscript, reviewer_control_results.tex"
+}

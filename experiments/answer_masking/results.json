@@ -1,0 +1,17 @@
+{
+  "_source": "Local-DeltaAvg manuscript, answer_masking_results.tex",
+  "answer_loss_masked_centered": {
+    "GSM8K": 72.2,
+    "MATH500": 59.1,
+    "AIME24": 16.7,
+    "GPQA-D": 47.6,
+    "LCB": 54.3
+  },
+  "answer_context_masked_centered": {
+    "GSM8K": 72.6,
+    "MATH500": 59.4,
+    "AIME24": 17.8,
+    "GPQA-D": 47.8,
+    "LCB": 54.5
+  }
+}
